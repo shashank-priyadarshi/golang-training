@@ -12,7 +12,7 @@ type val int
 func main() {
 	fmt.Println("Inside main")
 	ll := NewLinkedList()
-	fmt.Println("Empty linked list:", ll, ll.value, ll.next)
+	fmt.Println("Empty linked list:", ll)
 	for i := 1; i < 10; i++ {
 		ll = ll.Insert(val(i))
 	}
@@ -45,7 +45,8 @@ func (n *node) Display() {
 }
 
 // Pop() pops(removes) the head element from current linked list and returns the updated linked list
-// func (n *node) Pop() *node
+func (n *node) Pop() *node{
+}
 
 // RemoveLast() removes the tail(last) element from current linked list and returns the updated linked list
 // func (n *node) RemoveLast() *node
