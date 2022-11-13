@@ -1,1 +1,1 @@
-# golang-training
+<h4> Golang Training Assignments </h4>
